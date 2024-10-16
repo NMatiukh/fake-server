@@ -1,4 +1,6 @@
 {
-  "clients": [],
+  "clients": [
+    {"test": 1}
+],
 "orders": []
 }
