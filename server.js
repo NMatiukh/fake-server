@@ -1,7 +1,13 @@
 const jsonServer = require('json-server');
 const clone = require('clone');
 const data = require('./db.json');
-const cors = require('cors'); // додано cors
+const corsOptions = {
+    origin: 'http://127.0.0.1:5500', // Замість '*' вкажіть ваш конкретний домен
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true // Якщо потрібна підтримка куків
+};
+server.use(cors(corsOptions));
+
 
 const isProductionEnv = process.env.NODE_ENV === 'production';
 const server = jsonServer.create();
