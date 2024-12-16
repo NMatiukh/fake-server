@@ -27,7 +27,14 @@
       "clientId": 1729067098876
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "description": "Desc 1",
+      "type": "Name"
+    }
+  ],
   "types": [
     {
       "id": 1,
