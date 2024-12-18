@@ -38,8 +38,13 @@
   "types": [
     {
       "id": 1,
-      "name": "Name",
-      "description": "Desc"
+      "name": "Type 1",
+      "description": "Type 1"
+    },
+    {
+      "id": 2,
+      "name": "Type 2",
+      "description": "Type 2"
     }
   ]
 }
